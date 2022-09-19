@@ -42,6 +42,9 @@ public class CachingMetadataReaderFactoryProvider implements ApplicationListener
 
     private final Map<String, MetadataReader> cache = new HashMap<>();
 
+    /**
+     * @see org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer
+     */
     public static final String BEAN_NAME = "org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory";
 
     public CachingMetadataReaderFactoryProvider(ApplicationContext applicationContext) throws Exception {
@@ -119,6 +122,11 @@ public class CachingMetadataReaderFactoryProvider implements ApplicationListener
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
+        if (metadataReaderFactory != null && !cleared && event.getApplicationContext() == this.applicationContext) {
+            metadataReaderFactory.clearCache();
+            cache.clear();
+            cleared = true;
+        }
 
     }
 }
