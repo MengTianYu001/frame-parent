@@ -1,5 +1,6 @@
 package com.mty.property.common;
 
+import com.mty.property.common.application.ApplicationNameBeanPostProcessor;
 import com.mty.property.common.infrastructure.CachingMetadataReaderFactoryProvider;
 import com.mty.property.common.utils.PropertySourceUtils;
 import com.mty.property.common.utils.SpringUtils;

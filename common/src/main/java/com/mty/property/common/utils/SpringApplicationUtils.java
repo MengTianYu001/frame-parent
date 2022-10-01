@@ -8,7 +8,6 @@ import org.springframework.util.Assert;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
@@ -16,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public final class SpringApplicationUtil {
+public final class SpringApplicationUtils {
     private static Map<SpringApplication, Boolean> CACHED_APP = new HashMap<>(2);
 
     public static boolean isbootApplication(SpringApplication application) {

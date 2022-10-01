@@ -1,6 +1,6 @@
 package com.mty.property.common;
 
-import com.mty.property.common.utils.SpringApplicationUtil;
+import com.mty.property.common.utils.SpringApplicationUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.core.env.ConfigurableEnvironment;
 
@@ -11,7 +11,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class AbstractProfileEnvironmentPostProcessor extends AbstractBootstrapProfileEnvironmentPostProcessor{
     @Override
     public void postProcessEnvironment(ConfigurableEnvironment env, SpringApplication application) {
-        if (!SpringApplicationUtil.isbootApplication(application)) {
+        if (!SpringApplicationUtils.isbootApplication(application)) {
             return;
         }
         super.postProcessEnvironment(env, application);
