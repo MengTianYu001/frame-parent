@@ -14,12 +14,12 @@ public class BootApplicationRunListenerAdapter extends ApplicationRunListenerAda
         super(application, args);
     }
 
-    private void init() {
+    /*private void init() {
         bootApp = SpringApplicationUtils.isbootApplication(getApplication());
-    }
+    }*/
     @Override
     public final void starting(ConfigurableBootstrapContext bootstrapContext){
-        init();
+        //init();
         if (bootApp) {
             doStarting();
         }
