@@ -7,7 +7,7 @@ import java.lang.reflect.UndeclaredThrowableException;
 
 /**
  * @author mty
- * @date 2022/08/29 10:58
+ * @since 2022/08/29 10:58
  **/
 @UtilityClass
 public class ExceptionUtils {

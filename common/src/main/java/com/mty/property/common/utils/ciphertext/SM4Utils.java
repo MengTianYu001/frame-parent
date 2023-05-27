@@ -19,7 +19,7 @@ import java.util.Arrays;
 
 /**
  * @author mty
- * @date 2022/09/16 10:22
+ * @since 2022/09/16 10:22
  **/
 @Slf4j
 public class SM4Utils {

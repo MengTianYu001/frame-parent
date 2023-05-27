@@ -7,7 +7,7 @@ import org.springframework.core.PriorityOrdered;
 
 /**
  * @author mty
- * @date 2022/09/19 11:46
+ * @since 2022/09/19 11:46
  **/
 public class ApplicationNameBeanPostProcessor implements BeanPostProcessor, PriorityOrdered {
     private final String applicationName;

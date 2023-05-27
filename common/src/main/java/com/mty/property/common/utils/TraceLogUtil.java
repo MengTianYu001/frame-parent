@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author mty
- * @date 2022/09/15 13:49
+ * @since 2022/09/15 13:49
  **/
 @Slf4j
 public class TraceLogUtil {

@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 
 /**
  * @author mty
- * @date 2022/09/19 11:23
+ * @since 2022/09/19 11:23
  **/
 public class BootApplicationRunListenerAdapter extends ApplicationRunListenerAdapter {
     private boolean bootApp;

@@ -7,7 +7,7 @@ import java.util.Objects;
 
 /**
  * @author mty
- * @date 2022/09/16 15:14
+ * @since 2022/09/16 15:14
  **/
 public final class EnvironmentUtil {
     private static Environment env;

@@ -7,7 +7,7 @@ import java.util.function.Function;
 
 /**
  * @author mty
- * @date 2022/09/19 10:56
+ * @since 2022/09/19 10:56
  **/
 public class SimpleMapEnabledConditionOutcomeCache implements EnabledConditionOutcomeCache {
     private static SimpleMapEnabledConditionOutcomeCache instance = new SimpleMapEnabledConditionOutcomeCache();

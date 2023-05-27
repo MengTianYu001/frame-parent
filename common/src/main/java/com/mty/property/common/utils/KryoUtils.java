@@ -12,7 +12,7 @@ import java.lang.ref.WeakReference;
 
 /**
  * @author mty
- * @date 2022/08/29 11:10
+ * @since 2022/08/29 11:10
  **/
 public class KryoUtils {
     private static int INIT_BUFFER_SIZE = 512;

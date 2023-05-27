@@ -5,7 +5,7 @@ import org.nustaq.serialization.FSTConfiguration;
 
 /**
  * @author mty
- * @date 2022/08/29 11:04
+ * @since 2022/08/29 11:04
  **/
 public class FstSerializerUtils {
     private static final FSTConfiguration FST_CONFIGURATION = FSTConfiguration.createDefaultConfiguration();

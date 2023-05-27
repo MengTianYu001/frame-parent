@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @author mty
- * @date 2022/09/19 10:39
+ * @since 2022/09/19 10:39
  **/
 public class MissingScaffoldModuleException extends RuntimeException {
     private final List<String> missingModules;

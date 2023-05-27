@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 
 /**
  * @author mty
- * @date 2022/08/26 16:22
+ * @since 2022/08/26 16:22
  **/
 public final class TypeUtils {
     private static final Type[] EMPTY_TYPE_ARRAY = new Type[0];

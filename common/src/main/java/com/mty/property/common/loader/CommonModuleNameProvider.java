@@ -5,7 +5,7 @@ import com.mty.property.common.version.ModuleNameProvider;
 
 /**
  * @author mty
- * @date 2022/09/16 15:33
+ * @since 2022/09/16 15:33
  **/
 public class CommonModuleNameProvider implements ModuleNameProvider {
     @Override

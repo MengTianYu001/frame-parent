@@ -5,7 +5,7 @@ import com.esotericsoftware.kryo.serializers.CompatibleFieldSerializer;
 
 /**
  * @author mty
- * @date 2022/09/02 09:29
+ * @since 2022/09/02 09:29
  **/
 public class DefaultKryoFactory implements KryoFactory {
     @Override

@@ -5,7 +5,7 @@ import org.springframework.boot.context.event.ApplicationStartedEvent;
 
 /**
  * @author mty
- * @date 2022/09/19 11:20
+ * @since 2022/09/19 11:20
  **/
 public class EnabledConditionOutcomeCacheCleaner implements BootApplicationListener<ApplicationStartedEvent> {
 

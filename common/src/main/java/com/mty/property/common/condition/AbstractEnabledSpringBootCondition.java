@@ -11,7 +11,7 @@ import java.util.function.Function;
 
 /**
  * @author mty
- * @date 2022/09/19 10:54
+ * @since 2022/09/19 10:54
  **/
 public abstract class AbstractEnabledSpringBootCondition<T> extends SpringBootCondition {
     private final String prefix;

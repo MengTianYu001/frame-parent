@@ -4,7 +4,7 @@ import org.slf4j.MDC;
 
 /**
  * @author mty
- * @date 2022/09/15 13:52
+ * @since 2022/09/15 13:52
  **/
 public class TraceUtils {
     public static String getReqId() {

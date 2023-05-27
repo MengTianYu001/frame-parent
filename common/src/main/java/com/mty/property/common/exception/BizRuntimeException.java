@@ -4,7 +4,7 @@ import lombok.Getter;
 
 /**
  * @author mty
- * @date 2022/09/19 10:35
+ * @since 2022/09/19 10:35
  **/
 public class BizRuntimeException extends RuntimeException implements CodeMsgException {
     @Getter

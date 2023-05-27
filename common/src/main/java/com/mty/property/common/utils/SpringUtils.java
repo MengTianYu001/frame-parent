@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * @author mty
- * @date 2022/09/15 12:02
+ * @since 2022/09/15 12:02
  **/
 public class SpringUtils implements ApplicationContextAware, ApplicationNameAware {
     private static ApplicationContext applicationContext;

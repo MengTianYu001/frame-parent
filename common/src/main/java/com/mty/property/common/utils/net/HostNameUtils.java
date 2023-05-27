@@ -7,7 +7,7 @@ import java.util.Enumeration;
 
 /**
  * @author mty
- * @date 2022/09/15 17:02
+ * @since 2022/09/15 17:02
  **/
 public final class HostNameUtils {
     private static String ip;

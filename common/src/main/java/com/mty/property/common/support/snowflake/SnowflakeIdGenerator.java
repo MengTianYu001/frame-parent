@@ -5,7 +5,7 @@ import lombok.Setter;
 
 /**
  * @author mty
- * @date 2022/09/02 09:31
+ * @since 2022/09/02 09:31
  **/
 public class SnowflakeIdGenerator {
     // 开始时间戳（2017-01-01）

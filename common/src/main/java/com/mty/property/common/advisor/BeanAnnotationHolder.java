@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @author mty
- * @date 2022/08/25 16:13
+ * @since 2022/08/25 16:13
  **/
 public class BeanAnnotationHolder<T extends Annotation> implements BeanAnnotationHoldable<T> {
     private Map<Class, Map<Method, BeanAnnotation<T>>> classMethodBeanAnnotationMap = new HashMap<>();

@@ -9,7 +9,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  * @author mty
- * @date 2022/09/15 17:36
+ * @since 2022/09/15 17:36
  **/
 public class AESCBCUtils {
     private static String cipherType = "AES/CBC/PKCS5Padding";

@@ -10,7 +10,7 @@ import java.time.Duration;
 
 /**
  * @author mty
- * @date 2022/09/19 11:24
+ * @since 2022/09/19 11:24
  **/
 public class ApplicationRunListenerAdapter implements SpringApplicationRunListener {
     private final SpringApplication application;

@@ -4,7 +4,7 @@ import org.springframework.context.SmartLifecycle;
 
 /**
  * @author mty
- * @date 2022/09/19 10:25
+ * @since 2022/09/19 10:25
  **/
 public abstract class AbstractSmartLifecycle implements SmartLifecycle {
     private volatile boolean running = false;

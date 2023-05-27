@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 
 /**
  * @author mty
- * @date 2022/08/26 16:13
+ * @since 2022/08/26 16:13
  **/
 @UtilityClass
 public class ClassUtils {
