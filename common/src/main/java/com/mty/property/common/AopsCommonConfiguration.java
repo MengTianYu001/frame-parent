@@ -1,7 +1,7 @@
 package com.mty.property.common;
 
 import com.mty.property.common.application.ApplicationNameBeanPostProcessor;
-import com.mty.property.common.condition.EnabledContionOutcomeCacheCleaner;
+import com.mty.property.common.condition.EnabledConditionOutcomeCacheCleaner;
 import com.mty.property.common.infrastructure.CachingMetadataReaderFactoryProvider;
 import com.mty.property.common.utils.PropertySourceUtils;
 import com.mty.property.common.utils.SpringUtils;
@@ -41,8 +41,8 @@ public class AopsCommonConfiguration {
     }
 
     @Bean
-    public EnabledContionOutcomeCacheCleaner enabledContionOutcomeCacheCleaner(){
-        return new EnabledContionOutcomeCacheCleaner();
+    public EnabledConditionOutcomeCacheCleaner enabledContionOutcomeCacheCleaner(){
+        return new EnabledConditionOutcomeCacheCleaner();
     }
 
 }
