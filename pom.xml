@@ -16,6 +16,8 @@
     <modules>
         <module>common</module>
         <module>spring-test</module>
+        <module>sleuth</module>
+        <module>log</module>
     </modules>
 
     <properties>
@@ -51,18 +53,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <exclusions>
+           <!-- <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
-            </exclusions>
+            </exclusions>-->
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- <dependency>
              <groupId>org.apache.logging.log4j</groupId>
@@ -150,13 +152,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
+
+           <!-- <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
+            </dependency>-->
             <!--&lt;!&ndash;日志&ndash;&gt;
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
@@ -225,7 +228,8 @@
                     <exclusion>
                         <groupId>org.ow2.asm</groupId>
                         <artifactId>asm</artifactId>
-                    </exclusion></exclusions>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -234,10 +238,23 @@
                 <version>9.3</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>3.4.2</version>
+            </dependency>
+
+
             <!--公共组件-->
             <dependency>
                 <groupId>com.mty.property</groupId>
                 <artifactId>mty-starter-common</artifactId>
+                <version>${mty.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mty.property</groupId>
+                <artifactId>mty-starter-log</artifactId>
                 <version>${mty.starter.version}</version>
             </dependency>
 
